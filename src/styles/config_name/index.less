@@ -1,0 +1,199 @@
+
+
+    @heade_banne_h:48px;
+    @searc_part_h:50px;
+    @searc_part_input_h:30px;
+
+    .header_banner{
+        width:100%;
+        height:@heade_banne_h;
+        // background:#eaeeef;
+        position:relative;
+        p{
+            font-size:12px;
+            margin-left:21px;
+            height:@heade_banne_h;
+            line-height:@heade_banne_h;
+            color:#fb5156;
+            b{
+                padding-left:5px;
+            }
+        }
+        .searchCon{
+            position:absolute;
+            right:12px;
+            top:0px;
+            display:block;
+
+            text-align: left;
+            form{
+                height:@heade_banne_h;
+                line-height:@heade_banne_h;
+                margin-top:5px;
+            }
+            .el-input__inner {
+                width: 252px;
+                border-radius: 10px;
+            }
+            .el-input__icon {
+                font-size: 18px;
+                color: #bebebe;
+            }
+
+        }
+    }
+    //配置报名链接的输入框
+
+    .search_part{
+        height:@searc_part_h;
+        background:white;
+        position:relative;
+
+    }
+    .table_con{
+        padding:0px 15px;
+
+        background: #fff;
+        .btn_part{
+            position: relative;
+            .btnGroup{
+               text-align:right;
+                height:@searc_part_h;
+                line-height:@searc_part_h;
+
+            }
+        }
+
+    }
+    .add_name_wranner{
+        width:100%;
+        position:absolute;
+        height:100%;
+        background:#ccc;
+        top:0%;
+        z-index:2000;
+        .message-box{
+            width:60%;
+            padding:0px 20px 0px 20px;
+            height:100%;
+            background: white;
+            margin: 0 auto;
+            font-size:16px;
+        }
+        .message-box__header
+        {
+            height:54px;
+            border-bottom:1px solid #aaa;
+            position:relative;
+            line-height:54px;
+        }
+        .message-box__content{
+            padding-bottom:26px;
+
+        }
+        .end_btns{
+            margin:0% 25% 0% 25%;
+            .cancal_btn,.confirm_btn{
+                width:25%;
+            }
+            .confirm_btn{
+                margin-left:30%;
+            }
+
+        }
+        .config_check_box{
+            position:relative;
+        }
+        .el-icon-close{
+            display:inline-block;
+            position:absolute;
+            right:0px;
+            top:15px;
+        }
+
+    }
+
+
+.config_check_box{
+    position:relative;
+}
+// .el-table__header, .el-table__body {
+//     transition: all .3s ease;
+// }
+.create-form {
+    .el-input {
+        width:500px;
+    }
+}
+.subject {
+    margin-bottom:10px;
+    background: rgba(255,255,255,0.12);
+}
+.grade {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #dddddd;
+    i{
+        position: absolute;
+        right:0;
+        top:15px;
+        cursor:pointer;
+        font-size: 20px;
+        &:hover{
+            color: #fb5e56;
+        }
+
+    }
+}
+.school-down {
+    height:45px;
+    overflow: hidden;
+}
+.subject-container {
+    height:400px;
+    overflow: auto;
+}
+.sub-title {
+    margin-top: 10px;
+    float: left;
+    .el-button{
+        margin-left:10px;
+    }
+}
+.btn-container {
+    overflow: hidden;
+    padding:0 5px;
+    background: rgba(255,255,255,0.06);
+    .el-button {
+        margin: 10px;
+    }
+}
+.btn-box {
+    display: inline-block;
+
+}
+.sub-school {
+    width: 85px;
+    float: left;
+}
+.el-input {
+    width:auto;
+}
+
+.buBtn{
+  display: inline-block;
+  width: 90%;
+  margin-left: 5%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.buBtn:hover{
+  background-color: #c9c9c9;
+  color: white;
+}
+.buBtn.select{
+  background-color: #c9c9c9;
+  color: white;
+}

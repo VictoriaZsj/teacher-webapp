@@ -1,0 +1,6 @@
+
+getBankAccount:根据手机号获取银行信息
+getProvinces:获取省
+getCitys:获取市
+agentMember:获取代理列表
+getAgent:根据id获取代理人员

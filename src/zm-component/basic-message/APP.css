@@ -1,0 +1,176 @@
+  *{
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  ul {
+      margin: 0;
+      padding: 0;
+  }
+  li {
+      list-style-type: none;
+  }
+  .basic-message-form{
+    border-bottom-width: 0px;
+    position:relative;
+    padding-top: 0px;
+  }
+  .basic-tab-item{
+    position: relative;
+    min-height: 300px;
+  }
+  .basic-tab-item-content{
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+  }
+  .teaPersonalInfo{
+    width: 100%;
+  }
+  .basic-tab-item-control{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  .basicinfo-no-data{
+    text-align: center;
+    padding-top: 200px;
+  }
+  .basic-message-audit-state{
+    padding: 10px 0;
+  }
+  .basic-message-audit-text:after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .basic-message-audit-title{
+    width: 100px;
+    min-height: 40px;
+    line-height: 40px;
+    background-color: rgba(22, 155, 213, 1);
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+  }
+  .basic-message-audit-description{
+    min-height: 40px;
+    font-size: 14px;
+    padding-left: 120px;
+  }
+  .basic-main{
+    position: relative;
+    min-height: 300px;
+    width: 100%;
+  }
+  .basic-main, .basic-tab-item, .basic_message .el-form-item.require:before {
+      width: 100%;
+      content: "*";
+      color: red;
+      display: block;
+      float: left;
+      margin-right: 1px;
+  }
+  .basic-main .el-tabs__content{
+    overflow: hidden;
+  }
+  .redPoint .el-tabs__nav div:nth-child(5):after {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      content: '';
+      display: block;
+      width: 6px;
+      height: 6px;
+      border-radius: 3px;
+      background-color: red;
+  }
+  .basic-main .el-input__inner{
+    width: 200px;
+    min-height: 30px;
+  }
+  .basic-main .el-input__inner{
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-radius: 0px;
+  }
+
+  /*弹框*/
+  .dialogBack{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2009;
+  }
+  .dialog-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-60%);
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .dialog-body{
+    overflow-y: auto;
+    padding: 20px;
+    margin: -20px;
+    height: 450px;
+  }
+  .dialog-control{
+    text-align: right;
+    padding-top: 20px;
+    background-color: white;
+  }
+  .dialog-tabel{
+      width: 100%;
+      text-align: center;
+  }
+  .dialog-tabel th{
+    text-align: left;
+  }
+  .dialog-tabel tr{
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .basic-main .el-input.is-disabled .el-input__inner{
+    background-color: white !important;
+  }
+  .slide-down-enter-active{
+    animation:dialog-enter ease .3s;
+  }
+  .slide-down-leave-active{
+    animation:dialog-leave ease .3s;
+  }
+  /* .el-button{
+    padding: 0 20px;
+  } */
+  @keyframes dialog-enter {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes dialog-leave {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }

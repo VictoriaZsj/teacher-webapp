@@ -1,0 +1,31 @@
+*.iml
+.idea
+.ipr
+.iws
+*.diff
+*.patch
+*.bak
+.DS_Store
+node_modules/
+node_modules2/
+.project
+.settings
+npm-debug.log
+.*proj
+.svn/
+*.swp
+*.swo
+*.log
+
+test/unit/coverage
+stats.json
+dist/
+
+# yarn
+yarn.lock
+package-lock.json
+yarn-error.log
+
+# vscode
+.vscode
+.history

@@ -1,0 +1,21 @@
+import fetch from "../../../src/utils/fetch";
+
+export default function sendSignEmail(options = {}) {
+  for (let key in options) if (!options[key] && options[key] !== 0 && options[key] !== false) delete options[key];
+  return new Promise((resolve, reject) => {
+    fetch({
+      url: "/api/sign/sendSignEmail",
+      method: "post",
+      data: options,
+    })
+      .then((res) => {
+        resolve(res);
+      })
+      .catch((err) => {
+        if (err) {
+          console.log(err);
+        }
+        reject(err);
+      });
+  });
+}

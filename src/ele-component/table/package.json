@@ -1,0 +1,53 @@
+{
+  "name": "element-table",
+  "version": "1.0.0",
+  "description": "A table component for Vue.",
+  "keywords": [
+    "element",
+    "vue",
+    "component"
+  ],
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElemeFE/element/tree/master/packages/dialog"
+  },
+  "author": {
+    "name": "elemefe"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "throttle-debounce": "^1.0.1"
+  },
+  "_id": "element-table@1.0.0",
+  "scripts": {},
+  "_shasum": "7bef299ba6f838f61339dd51fbb5ac1bfd84f6e9",
+  "_from": "element-table@*",
+  "_npmVersion": "3.10.3",
+  "_nodeVersion": "6.6.0",
+  "_npmUser": {
+    "name": "yi.yang",
+    "email": "leopoldthecuber@gmail.com"
+  },
+  "dist": {
+    "shasum": "7bef299ba6f838f61339dd51fbb5ac1bfd84f6e9",
+    "size": 39878,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/element-table/download/element-table-1.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "yi.yang",
+      "email": "leopoldthecuber@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/element-table-1.0.0.tgz_1485163255675_0.5279901397880167"
+  },
+  "directories": {},
+  "publish_time": 1485163255917,
+  "_cnpm_publish_time": 1485163255917,
+  "_hasShrinkwrap": false,
+  "_resolved": "https://registry.npm.taobao.org/element-table/download/element-table-1.0.0.tgz"
+}

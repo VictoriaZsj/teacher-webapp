@@ -1,0 +1,237 @@
+/*full_time exclude router-view */
+
+@heade_banne_h: 48px;
+
+.full-times-context {
+  height: 100%;
+  overflow: auto;
+  .full-time-container {
+    .context-body {
+      min-height: calc(~"100vh - 288px");
+
+      .el-table__body-wrapper {
+        // min-height: calc(~"100vh - 410px");
+      }
+    }
+
+    .el-table__fixed,
+    .el-table__fixed-right {
+      box-shadow: none;
+    }
+  }
+
+  .tabPart {
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    color: #71777c;
+    user-select: none;
+
+    .el-input {
+      float: right;
+      width: auto;
+
+      input {
+        border: none;
+        border-radius: 0px;
+        height: 50px;
+      }
+    }
+
+    .el-menu-item.is-active {
+      color: #007fff;
+    }
+
+    .el-menu--horizontal .el-menu-item {
+      width: 90px;
+      padding: 0px;
+      text-align: center;
+      height: 50px;
+      line-height: 50px;
+      font-size: 12px;
+    }
+
+    .el-menu-item,
+    .el-submenu {
+      box-shadow: none;
+    }
+
+    .el-menu--horizontal .el-menu-item.is-active {
+      background: white;
+    }
+
+    .el-menu-item:hover {
+      color: #007fff;
+    }
+  }
+
+  .tabPartLarge {
+    .el-menu--horizontal .el-menu-item {
+      width: 150px;
+    }
+  }
+
+
+  /* common el-form-item*/
+
+  /*common input*/
+  .el-input__inner {
+    height: 30px;
+  }
+
+  .actionGroup {
+    font-size: 14px;
+    height: 54px;
+    line-height: 54px;
+    position: relative;
+    padding-left: 16px;
+  }
+
+  .order_dialog_header {
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    background: fade(#007fff, 80%);
+
+    .header-text-left {
+      float: left;
+      margin-left: 20px;
+    }
+
+    .add-reserve {
+      cursor: pointer;
+      float: right;
+      margin-right: 20px;
+
+      &:hover {
+        color: #eeeeee;
+      }
+    }
+  }
+
+  .order_dialog_body {
+    min-height: 345px;
+
+    .el-tabs__header {
+      color: #808080;
+      background: #ffffff;
+      margin-bottom: 0;
+    }
+
+    .el-select {
+      width: 100%;
+    }
+
+    // padding: 20px;
+    .el-tabs__content {
+      color: #808080;
+      padding: 20px;
+      margin-top: 2px;
+      background: #fff;
+    }
+
+    // .el-form-item {
+    //     width: 30%;
+    // }
+    // .el-form-item__content{
+    //     min-width: 180px;
+    // }
+  }
+
+  .rder_dialog_bodys {
+    .el-tabs__content {
+      background: #f4f5f5;
+    }
+  }
+
+  .rder_dialog_bodys_white {
+    .el-tabs__content {
+      background: #fff;
+      height: 395px;
+      overflow-y: auto;
+    }
+
+    .el-tabs__header {
+      float: left;
+      border-right: 1px solid #ededed;
+    }
+
+    .el-tabs__item {
+      display: block;
+    }
+
+    .el-tabs__active-bar {
+      display: none;
+    }
+  }
+
+  /*
+  搜索btn配置
+  */
+  .searchForm .queryRes {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  /*
+      el-rate
+  */
+  .el-rate {
+    display: inline-block;
+    line-height: 20px;
+  }
+
+  .el-form-item__content {
+    width: auto;
+  }
+
+  // 笔试信息
+  .writtenScore {
+    display: inline-block;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    background: fade(#007fff, 80%);
+
+    img {
+      display: block;
+      margin-top: 20px;
+    }
+  }
+
+  // 面试结果
+  .interview-result {
+    float: left;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    line-height: 2.5;
+  }
+
+  .training {
+    .el-form-item__label {
+      width: 100px !important;
+    }
+  }
+
+  .basic-main {
+    margin: -22px !important;
+  }
+
+  // 合同预览样式
+  .contract_details__time {
+    line-height: 2;
+  }
+
+  .contract_details__iframe {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+  }
+}

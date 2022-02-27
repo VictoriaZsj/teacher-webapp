@@ -1,0 +1,80 @@
+@heade_banne_h:48px;
+@searc_part_h:50px;
+@searc_part_input_h:30px;
+.context {
+  .context-body {
+
+  }
+}
+.text-right {
+  text-align: right;
+}
+.el-row {
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.bg-purple {
+  background: #d3dce6;
+}
+.bg-purple-light {
+  background: #e5e9f2;
+}
+.grid-content {
+  min-height: 36px;
+  text-align: center;
+  line-height: 36px;
+  border: 1px solid #d3dce6;
+}
+.stuNameLink{
+  color:#007fff;
+  cursor: pointer;
+}
+.search-btn{
+  float: none;
+}
+.dataLoading{
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 9999;
+  color: white;
+}
+.rollPanel{
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.roll{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid white;
+  border-top-width: 0px;
+  animation: rotate .5s linear infinite;
+}
+.rollText{
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@keyframes rotate {
+    0%{
+      transform:rotate(0deg);
+    }
+    100%{
+      transform:rotate(360deg);
+    }
+}
